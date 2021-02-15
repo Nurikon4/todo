@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #d6eaf8;
+  padding: 0 15px;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+ul, li {
+  list-style: none;
+}
+input{
+  outline: none;
+}
+.Done{
+  width: 244px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.Done__text{
+  border: 1px solid black;
+  color: #333;
+  background-color: rgba(255,255,255,.5);
+  border-radius: 5px;
+}
+.Done__text + .Done__text {
+  margin-top: 5px;
+}
+.input.green{
+  border: 2px solid green;
+}
+.input.red{
+  border: 1px solid red;
+}
+.Done_p{
+  color: green;
+  font-size: 24px;
+}
+input{
+  height: 40px;
+}
+input::placeholder{
+  font-size: 16px;
+}
+.AddButton{
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #0066FF;
+  color: #FFF;
+  border: 2px solid #0066FF;
+}
